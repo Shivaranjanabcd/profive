@@ -1,0 +1,120 @@
+{% load static %}
+    <!-- 
+			=============================================
+				Theme Header One
+			============================================== 
+			-->
+      <header class="header-one">
+        <div class="top-header">
+          <div class="container clearfix">
+            <div class="logo float-left">
+              <a href="{% url 'home' %}"
+                ><img src="{% static 'images/logo/logo0.png' %}" alt=""
+              /></a>
+            </div>
+            <div class="address-wrapper float-right">
+              <ul>
+                <li class="address">
+                  <i class="icon flaticon-placeholder"></i>
+                  <h6>Address:</h6>
+                  <p>32, Chhabria Icon, 1st Main Road, Vasanthnagar</p>
+                </li>
+                <li class="address">
+                  <i class="icon flaticon-multimedia"></i>
+                  <h6>Mail us:</h6>
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@profiveinfotech.com">info@profiveinfotech.com</a>
+                </li>
+                {% comment %}
+                <li class="quotes"><a href="#">GET A QUOTES</a></li>
+                {% endcomment %}
+              </ul>
+            </div>
+            <!-- /.address-wrapper -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.top-header -->
+
+        <div class="theme-menu-wrapper">
+          <div class="container">
+            <div class="bg-wrapper clearfix">
+              <!-- ============== Menu Warpper ================ -->
+              <div class="menu-wrapper float-left">
+                <nav id="mega-menu-holder" class="clearfix">
+                  <ul class="clearfix">
+                    <li class="active">
+                      <a href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li>
+                      <a href="{% url 'about' %}">About US</a>
+                    </li>
+                    <li>
+                      <a href="#">Service</a>
+                      <ul class="dropdown">
+                        <li><a href="{% url 'services' %}">Software Development Service</a></li>
+                        <li><a href="{% url 'it_infra_service' %}">IT Infra Mangement</a></li>
+                        <li><a href="{% url 'cloud_service' %}">Cloud Computing</a></li>
+                      </ul>  
+                    </li>
+                    <li>
+                      <a href="{% url 'project' %}">Portfolio</a>
+                    </li>
+                    <li>
+                      <a href="{% url 'blog' %}">Blog</a>
+                    </li>
+                    <li><a href="{% url 'contact' %}">contact</a></li>
+                  </ul>
+                </nav>
+                <!-- /#mega-menu-holder -->
+              </div>
+              <!-- /.menu-wrapper -->
+
+              <div class="right-widget float-right">
+                <ul>
+                  <li class="social-icon">
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/profiveinfo?mibextid=ZbWKwL"
+                          ><i class="fa fa-facebook" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/company/profive-infotech/"
+                          ><i class="fa fa-linkedin" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/profiveinfotech?igsh=aTF3Z3FtdXJlNzcy"
+                          ><i class="fa fa-instagram" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="search-option">
+                    <div class="dropdown">
+                      <button
+                        type="button"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                      >
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                      </button>
+                      <form action="#" class="dropdown-menu">
+                        <input type="text" placeholder="Enter Your Search" />
+                        <button><i class="fa fa-search"></i></button>
+                      </form>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.right-widget -->
+            </div>
+            <!-- /.bg-wrapper -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.theme-menu-wrapper -->
+      </header>
+    
+    
