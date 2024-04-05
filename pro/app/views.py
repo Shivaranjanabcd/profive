@@ -34,3 +34,5 @@ def project(request):
 def about(request):
     return render(request, "about.html",{})
 
+def manged_it(request):
+    return render(request,'manged_it.html',{})

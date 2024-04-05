@@ -500,6 +500,9 @@ body .theme-button-one:hover {background:#000f32; }
   font-weight: 500;
   margin-bottom: 50px;
 }
+
+
+
 #theme-main-banner .camera_caption .theme-button-one {background: #fff;}
 #theme-main-banner .camera_caption .theme-button-one:hover {color: #fff;}
 #theme-main-banner .camera_pag {
@@ -2061,3 +2064,5 @@ body .theme-button-one:hover {background:#000f32; }
 .message-container {
   margin-left: 100px; /* Adjust this value according to your preference */
 }
+
+
