@@ -6,7 +6,7 @@
 -->
 {% block content %}
 <div id="theme-main-banner" class="banner-one">
-  <div data-src="{% static 'images/home/slide-1.jpg' %}">
+  <div data-src="{% static 'images/home/demo1.jpg' %}">
     <div class="camera_caption">
       <div class="container">
         <h1 class="wow fadeInUp animated" data-wow-delay="0.2s">
@@ -28,7 +28,7 @@
     </div>
     <!-- /.camera_caption -->
   </div>
-  <div data-src="{% static 'images/home/slide-2.jpg' %}">
+  <div data-src="{% static 'images/home/demo2.jpg' %}">
     <div class="camera_caption">
       <div class="container">
         <h1 class="wow fadeInUp animated" data-wow-delay="0.2s">
@@ -226,22 +226,22 @@
         </div>
         <!-- /.col- -->
         <div class="col-xl-4 col-md-6 col-12">
-          <!-- <div class="single-service">
+          <div class="single-service">
             <div class="img-box">
               <img src="{% static 'images/home/6.jpg' %}" alt="" />
             </div>
             <div class="text">
               <h5>
-                <a href="#">Travel and Aviation</a>
+                <a href="{% url 'manged_it' %}">Managed It Services</a>
               </h5>
+              {% comment %}
               <p>The tiny ship today stiller</p>
-              <a href="#" class="read-more"
-                >READ MORE
-                <i class="fa fa-angle-right" aria-hidden="true"></i
+              {% endcomment %}
+              <a href="{% url 'manged_it' %}" class="read-more"
+                >READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i
               ></a>
             </div>
-            
-          </div> -->
+          </div>
           <!-- /.single-service -->
         </div>
         <!-- /.col- -->

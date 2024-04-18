@@ -264,7 +264,8 @@ body .theme-button-one:hover {background:#000f32; }
 .theme-pagination ul li.active a {cursor: default;}
 /*--------------------------- Theme Header One  ---------------------*/
 .header-one {position: relative;}
-.header-one .top-header {background: #fff;padding: 40px 0 32px 0;}
+.header-one .top-header {background: #fff;padding-top: 10px;}
+
 .header-one .top-header .address-wrapper li {display: inline-block;vertical-align: middle;}
 .header-one .top-header .address-wrapper .quotes a {
   font-size: 14px;

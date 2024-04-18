@@ -111,6 +111,11 @@
   .blog-details .single-blog .post-meta .mark-text .inner-text {padding-top: 80px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text:before {top:10px;}
   #theme-main-banner {height: 600px !important;}
+  #theme-main-banner .container div[data-src] {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
@@ -138,6 +143,11 @@
   .contact-us-section .form-wrapper {padding: 40px 15px;}
   .google-map-two {height: 300px;}
   #theme-main-banner .camera_caption h1 br {display: none;}
+  #theme-main-banner .container div[data-src] {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
   .error-page input {width: 100%;margin-top: 20px;}
 }
 /*(max-width: 767px)*/
@@ -146,6 +156,11 @@
   .header-two .top-header .social-icon li:first-child {margin-left: 0;}
   .our-case .single-case-block .hover-content .text {padding: 0;}
   #theme-main-banner {height: 500px !important;}
+  #theme-main-banner .container div[data-src] {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
   #theme-main-banner .camera_caption p {font-size: 20px;}
   #theme-main-banner .camera_caption h1 {font-size: 50px;line-height: 60px;}
 }
@@ -190,6 +205,11 @@
   .shop-details .product-details .product-info .title {font-size: 22px;}
   .blog-details .share-option ul {width: 100%;}
   #theme-main-banner {height: 400px !important;}
+  #theme-main-banner .container div[data-src] {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
   #theme-main-banner .camera_caption p {font-size: 18px;}
   #theme-main-banner .camera_caption h1 {font-size: 35px;line-height: 46px;padding: 12px 0 18px 0;}
 }
@@ -223,6 +243,7 @@
   #theme-main-banner .container p {
     font-size: 20px; /* Adjust as needed */
   }
+  
 }
 
 @media (max-width: 991px) {
@@ -233,6 +254,33 @@
   #theme-main-banner .container p {
     font-size: 18px; /* Adjust as needed */
   }
+}
+
+@media (max-width: 400px) {
+  #theme-main-banner .container h1 {
+    font-size: 30px; /* Adjust as needed */
+  }
+  
+  #theme-main-banner .container p {
+    font-size: 18px; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 360px) {
+  
+  #theme-main-banner .container h1 {
+    font-size: 25px; /* Adjust as needed */
+  }
+  
+  #theme-main-banner .container p {
+    font-size: 18px; /* Adjust as needed */
+  }
+  
+  #theme-main-banner .container div[data-src] {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
 }
 
 @media only screen and (max-width: 768px) {
