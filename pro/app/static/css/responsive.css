@@ -235,39 +235,8 @@
   .cunter-wrapper [class*="col-"] {max-width: 100%;flex: 0 0 100%;}
 }
 
-@media (min-width: 992px) {
-  #theme-main-banner .container h1 {
-    font-size: 50px; /* Adjust as needed */
-  }
-  
-  #theme-main-banner .container p {
-    font-size: 20px; /* Adjust as needed */
-  }
-  
-}
-
-@media (max-width: 991px) {
-  #theme-main-banner .container h1 {
-    font-size: 30px; /* Adjust as needed */
-  }
-  
-  #theme-main-banner .container p {
-    font-size: 18px; /* Adjust as needed */
-  }
-}
-
-@media (max-width: 400px) {
-  #theme-main-banner .container h1 {
-    font-size: 30px; /* Adjust as needed */
-  }
-  
-  #theme-main-banner .container p {
-    font-size: 18px; /* Adjust as needed */
-  }
-}
-
-@media (max-width: 360px) {
-  
+/* Small devices (phones) */
+@media (max-width: 576px) {
   #theme-main-banner .container h1 {
     font-size: 25px; /* Adjust as needed */
   }
@@ -275,13 +244,26 @@
   #theme-main-banner .container p {
     font-size: 18px; /* Adjust as needed */
   }
-  
-  #theme-main-banner .container div[data-src] {
-    width: 100% !important;
-    height: auto !important;
+  /* Adjust styles for small devices here */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+  /* Adjust styles for medium devices here */
+  #theme-main-banner .container h1 {
+    font-size: 40px; /* Adjust as needed */
   }
   
+  #theme-main-banner .container p {
+    font-size: 28px; /* Adjust as needed */
+  }
 }
+
+/* Large devices (desktops) */
+@media (min-width: 993px) {
+  /* Adjust styles for large devices here */
+}
+
 
 @media only screen and (max-width: 768px) {
   #theme-main-banner .banner-one > div > div {

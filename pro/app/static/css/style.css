@@ -298,6 +298,11 @@ body .theme-button-one:hover {background:#000f32; }
   background: #e8e8e8;
 }
 .header-one .top-header .address-wrapper .address:first-child {margin-right: 35px;}
+
+.menu-wrapper .clearfix li.active a {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
 /*--------------------------- Theme Header Two  ---------------------*/
 .header-two .top-header {background: #000f32;padding: 12px 0;}
 .header-two .top-header .left-widget li {display: inline-block;color: #fff;font-size: 16px;}

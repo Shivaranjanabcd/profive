@@ -15,6 +15,19 @@
             min-width:50%
             height="70"
         /></a>
+      </div>
+        <div class="address-wrapper float-right">
+          <ul>
+            <li class="address">
+              <i class="icon flaticon-multimedia"></i>
+              <h6>Contact us:</h6>
+               <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@profiveinfotech.com"
+                >info@profiveinfotech.com</a
+              > 
+            </li>
+          </ul>
+        </div>
         {% comment %}
       </div>
       <div class="address-wrapper float-right">
@@ -35,8 +48,7 @@
           {% endcomment %} {% comment %}
           <li class="quotes"><a href="#">GET A QUOTES</a></li>
           {% endcomment %}
-        </ul>
-      </div>
+        
       <!-- /.address-wrapper -->
     </div>
     <!-- /.container -->
@@ -51,15 +63,15 @@
         <div class="menu-wrapper float-left">
           <nav id="mega-menu-holder" class="clearfix">
             <ul class="clearfix">
-              <li class="active">
+              <li {% if request.path == '/' %}class="active"{% endif %}>
                 <a href="{% url 'home' %}">Home</a>
               </li>
-              <li>
+              <li {% if request.path == '/about' %}class="active"{% endif %}>
                 <a href="{% url 'about' %}">About US</a>
               </li>
-              <li>
+              <li {% if request.path == '/services' %}class="active"{% endif %}>
                 <a href="#">Service</a>
-                <ul class="dropdown">
+                <ul class="dropdown" style="width: 250px;">
                   <li>
                     <a href="{% url 'services' %}"
                       >Software Development Service</a
@@ -79,11 +91,11 @@
                 </ul>
               </li>
 
-              <li>
+              <li {% if request.path == '/blog' %}class="active"{% endif %}>
                 <a href="{% url 'blog' %}">Blog</a>
               </li>
-              <li><a href="{% url 'contact' %}">contact</a></li>
-              <li>
+              <li {% if request.path == '/contact' %}class="active"{% endif %}><a href="{% url 'contact' %}">contact</a></li>
+              <li {% if request.path == '/project' %}class="active"{% endif %}>
                 <a href="{% url 'project' %}">Carrier</a>
               </li>
             </ul>
